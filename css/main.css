@@ -1,0 +1,72 @@
+@import '../css/header.css';
+@import '../css/about.css';
+@import '../css/team.css';
+@import '../css/services.css';
+@import '../css/clients.css';
+@import '../css/works.css';
+@import '../css/testimonials.css';
+@import '../css/contact.css';
+@import '../css/footer.css';
+
+
+
+body {
+    font-size: 16px;
+    font-family: 'Open sans', sans-serif;
+    color: #fff;
+    line-height: 24px;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+
+/* Media Queries */
+@media (min-width: 1530px) {
+   .container {
+        padding: 0 50px;
+    }
+}
+
+
+
+@media (min-width: 1680px) {
+   .container {
+        padding: 0 60px;
+    }
+}
+
+
+
+@media (min-width: 1920px) {
+   .container {
+        padding: 0 70px;
+    }
+}
+
+
+
+@media (max-width: 768px) {
+   .container {
+        padding: 0 30px;
+    }
+}
+
+
+
+@media (max-width: 475px) {
+    .container {
+        padding: 0 25px;
+    }
+}
+
+
+
+@media (max-width: 414px) {
+   .container {
+        padding: 0 20px;
+    }
+}

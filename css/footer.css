@@ -1,0 +1,122 @@
+/* Footer */
+.footer {
+    padding: 25px 0;
+    background-color: #000;
+}
+.socials {
+    width: 214px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+.socials-link {
+    width: 32px;
+    height: 32px;
+
+    transition: all .4s;
+}
+.socials-link.facebook {
+    background: url(../img/facebook.svg) 0 0 no-repeat;
+}
+.socials-link.twitter {
+    background: url(../img/twitter.svg) 0 0 no-repeat;
+}
+.socials-link.google {
+    background: url(../img/google.svg) 0 0 no-repeat;
+}
+.socials-link.linkedin {
+    background: url(../img/linkedin.svg) 0 0 no-repeat;
+}
+.socials-link.dribble {
+    background: url(../img/dribbble.svg) 0 0 no-repeat;
+}
+.socials-link:hover {
+    transform: translateY(-5px) scale(1.2);
+}
+
+
+
+/* Media Queries */
+@media (min-width: 1530px) {
+    .footer {
+        padding: 30px 0;
+    }
+    .socials {
+        width: 260px;
+    }
+    .socials-link {
+        width: 38px;
+        height: 38px;
+    }
+    .socials-link.facebook,
+    .socials-link.twitter,
+    .socials-link.google,
+    .socials-link.linkedin,
+    .socials-link.dribble {
+        background-size: 37px;
+    }
+}
+
+
+
+@media (min-width: 1680px) {
+    .footer {
+        padding: 40px 0;
+    }
+    .socials {
+        width: 290px;
+    }
+    .socials-link {
+        width: 45px;
+        height: 45px;
+    }
+    .socials-link.facebook,
+    .socials-link.twitter,
+    .socials-link.google,
+    .socials-link.linkedin,
+    .socials-link.dribble {
+        background-size: 44px;
+    }
+}
+
+
+
+@media (min-width: 1920px) {
+    .footer {
+        padding: 50px 0;
+    }
+    .socials {
+        width: 330px;
+    }
+    .socials-link {
+        width: 50px;
+        height: 50px;
+    }
+    .socials-link.facebook,
+    .socials-link.twitter,
+    .socials-link.google,
+    .socials-link.linkedin,
+    .socials-link.dribble {
+        background-size: 48px;
+    }
+}
+@media (min-width: 2300px) {
+    .footer {
+        padding: 60px 0;
+    }
+    .socials {
+        width: 380px;
+    }
+    .socials-link {
+        width: 60px;
+        height: 60px;
+    }
+    .socials-link.facebook,
+    .socials-link.twitter,
+    .socials-link.google,
+    .socials-link.linkedin,
+    .socials-link.dribble {
+        background-size: 58px;
+    }
+}
